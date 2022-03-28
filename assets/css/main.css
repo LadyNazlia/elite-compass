@@ -167,8 +167,12 @@ input, select, textarea {
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0;
 		text-transform: uppercase;
+	}
+
+	h2.title {
+		margin: 0 30% 0 30%;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1778,6 +1782,10 @@ input, select, textarea {
 		margin: 0 0 3.5em 0;
 	}
 
+	h2.title {
+		text-align: center;
+	}
+
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			border-bottom: solid 2px #fff;
 			display: inline-block;
@@ -2133,6 +2141,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.profile-pic {
+			width: 25%;
+			margin: 0 37%;
+		}
+
 /* List */
 
 	ol {
@@ -2193,6 +2206,10 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		ul.actions.special li {
+			padding: 0 0 0 1em;
+			vertical-align: middle;
+		}
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
@@ -2790,7 +2807,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -2830,6 +2847,8 @@ input, select, textarea {
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #ffffff;
 			}
+			
+			
 
 			.wrapper.style1 hr {
 				border-color: rgba(0, 0, 0, 0.125);
