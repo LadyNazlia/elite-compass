@@ -2174,6 +2174,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+
 /* Actions */
 
 	ul.actions {
@@ -2188,7 +2189,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 45%;
 			vertical-align: middle;
 		}
 
@@ -3815,9 +3816,6 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: url("images/4.png");
-		background-image: url("images/4.png");
-		background-image: url("images/4.png");
 		background-image: url("images/4.png");
 		background-attachment: fixed;
 		background-position: center center;
