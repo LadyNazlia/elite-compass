@@ -2761,6 +2761,11 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.75);
 		}
 
+		.spotlight a h2:hover {
+			color: #2b343d;
+			background: #698d71;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
