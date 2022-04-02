@@ -4032,3 +4032,11 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/*CPE-Info*/
+
+	#acgrTop {
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
