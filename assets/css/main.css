@@ -2187,6 +2187,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	section.list ol {
+		margin-left: 5%; 
+	}
+
 
 /* Actions */
 
