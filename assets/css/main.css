@@ -4040,3 +4040,21 @@ input, select, textarea {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+	#acgrInfo, #location {
+		width: 45%;
+	} 
+
+	#location iframe {
+		width: 100%;
+	}
+
+	@media screen and (max-width: 785px) {
+		#acgrTop {
+			flex-direction: column;
+		}
+
+		#acgrInfo, #location {
+			width: 90%;
+		}
+	}
