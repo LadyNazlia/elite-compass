@@ -4067,3 +4067,7 @@ input, select, textarea {
 			width: 90%;
 		}
 	}
+
+	#stoolImg {
+		width: 75%;
+	}
