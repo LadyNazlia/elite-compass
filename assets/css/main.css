@@ -4071,3 +4071,8 @@ input, select, textarea {
 	#stoolImg {
 		width: 75%;
 	}
+
+	#cpe-info-title {
+		text-align: center;
+		margin-bottom: 3%;
+	}
