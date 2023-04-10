@@ -3347,6 +3347,22 @@ input, select, textarea {
 
 		}
 
+/*Theme Special Styling*/
+
+	#theme {
+		display:flex;
+		flex-direction: row;
+		
+	}
+
+	#theme img {
+		width: 80%;
+	}
+
+	#themeImg {
+		width: 100%;
+	}
+
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
