@@ -3363,6 +3363,15 @@ input, select, textarea {
 		width: 100%;
 	}
 
+
+	@media  screen and  (max-width: 480px) {
+		#theme {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
