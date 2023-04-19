@@ -163,9 +163,9 @@ input, select, textarea {
 		text-transform: uppercase;
 	}
 
-	h2.title {
+	/* h2.title {
 		margin: 0 30% 0 30%;
-	}
+	} */
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -2134,8 +2134,8 @@ input, select, textarea {
 			}
 
 		.profile-pic {
-			width: 25%;
-			margin: 2% 37%;
+			width: 50%;
+			margin: 0 25%;
 		}
 
 /* List */
@@ -2825,7 +2825,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 2em 0 4em 0 ;
+		padding: 0 0 0 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3193,6 +3193,9 @@ input, select, textarea {
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
 				color: #2E3842;
 			}
+			.wrapper.style5 h3:first-of-type {
+				padding: 2rem 0 0 0;
+			}
 
 			.wrapper.style5 hr {
 				border-color: #dfdfdf;
@@ -3336,6 +3339,10 @@ input, select, textarea {
 
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
+				}
+
+				.wrapper.style5 h3:first-of-type {
+					padding: 0;
 				}
 
 			}
